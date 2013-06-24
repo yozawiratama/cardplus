@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base Color -->
+    <color name="green">#00ff00</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="blue">#0000ff</color>
+    <color name="yellow">#ffff00</color>
+    <color name="light_gray">#eee9e9</color>
+    <color name="gray">#888888</color>
+    <color name="red">#ff0000</color>
+    <color name="oil">#545454</color>
+    <color name="water">#4DBFD9</color>
+    
+    <color name="layout_bg">#E6E6E6</color>
+    
+    <!-- Card Color -->
+    <color name="card_stroke">#dddddd</color>
+    <color name="card_text_light">#66000000</color>
+    <color name="card_text">#ff8d8d8d</color>
+    <color name="card_title_text">#ff707070</color>
+    <color name="card_light_text">#ffb5b5b5</color>
+    <color name="card_grid_text">#ff707070</color>
+    <color name="card_separator">#ffe5e5e5</color>
+    <color name="card_border">#ffdedede</color>
+    <color name="card_background">#f3f3f3</color>
+    <color name="card_shadow">#ffd6d6d6</color>
+    
+    
+</resources>
