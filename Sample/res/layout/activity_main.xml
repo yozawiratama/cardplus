@@ -143,6 +143,11 @@
 		    			android:textColor="@color/card_text_light"
 		    			android:layout_gravity="center"
 		                />
+		            <ImageView 
+		                android:layout_width="match_parent"
+		                android:layout_height="match_parent"
+		                android:src="@drawable/sunny"
+		                />
 		        </LinearLayout>
 		        <TextView 
 		            android:layout_width="0dip"
@@ -163,6 +168,11 @@
 		                android:textSize="14sp"
 		    			android:textColor="@color/card_text_light"
 		    			android:layout_gravity="center"
+		                />
+		            <ImageView 
+		                android:layout_width="match_parent"
+		                android:layout_height="match_parent"
+		                android:src="@drawable/sunny"
 		                />
 		        </LinearLayout>
 		        <TextView 
@@ -185,6 +195,11 @@
 		    			android:textColor="@color/card_text_light"
 		    			android:layout_gravity="center"
 		                />
+		            <ImageView 
+		                android:layout_width="match_parent"
+		                android:layout_height="match_parent"
+		                android:src="@drawable/sunny"
+		                />
 		        </LinearLayout>
 		        <TextView 
 		            android:layout_width="0dip"
@@ -206,6 +221,11 @@
 		                android:text="WED"
 		                android:textColor="@color/card_text_light"
 		                android:textSize="14sp" />
+		            <ImageView 
+		                android:layout_width="match_parent"
+		                android:layout_height="match_parent"
+		                android:src="@drawable/sunny"
+		                />
 
 		        </LinearLayout>
 		        <TextView 
@@ -228,6 +248,11 @@
 		                android:text="THU"
 		                android:textColor="@color/card_text_light"
 		                android:textSize="14sp" />
+		            <ImageView 
+		                android:layout_width="match_parent"
+		                android:layout_height="match_parent"
+		                android:src="@drawable/sunny"
+		                />
 
 		        </LinearLayout>
 		        <TextView 
@@ -250,6 +275,11 @@
 		                android:text="FRI"
 		                android:textColor="@color/card_text_light"
 		                android:textSize="14sp" />
+		            <ImageView 
+		                android:layout_width="match_parent"
+		                android:layout_height="match_parent"
+		                android:src="@drawable/sunny"
+		                />
 
 		        </LinearLayout>
 		        <TextView 
@@ -264,7 +294,7 @@
 		            android:layout_weight="19"
 		            android:orientation="vertical"
 		            >
-
+		            
 		            <TextView
 		                android:layout_width="wrap_content"
 		                android:layout_height="wrap_content"
@@ -272,7 +302,11 @@
 		                android:text="SAT"
 		                android:textColor="@color/card_text_light"
 		                android:textSize="14sp" />
-
+		            <ImageView 
+		                android:layout_width="match_parent"
+		                android:layout_height="match_parent"
+		                android:src="@drawable/sunny"
+		                />
 		        </LinearLayout>
 		    </LinearLayout>
 		    
