@@ -8,23 +8,23 @@
 	    android:layout_width="match_parent"
 	    android:layout_height="wrap_content"
 		android:orientation="vertical"
-		android:layout_marginTop="8dip"
-		android:layout_marginLeft="8dip"
-		android:layout_marginRight="8dip"
-		android:padding="8dip"
+		android:layout_marginTop="@dimen/global_margin"
+		android:layout_marginLeft="@dimen/global_margin"
+		android:layout_marginRight="@dimen/global_margin"
+		android:padding="@dimen/global_padding"
 	    >
 	    
 	    <LinearLayout 
 	        android:layout_width="match_parent"
 	    	android:layout_height="wrap_content"
-	    	android:layout_marginBottom="5dip"
+	    	android:layout_marginBottom="@dimen/global_margin"
 	    	android:orientation="horizontal"
 	    	android:background="@drawable/input_card"
 	        >
 	        
 	        <EditText 
 	            android:layout_width="match_parent"
-	            android:layout_height="50dip"
+	            android:layout_height="@dimen/input_height"
 	            android:textSize="14sp"
 	    		android:textColor="@color/card_text_light"
 	            android:imeOptions="actionSearch"
@@ -79,7 +79,7 @@
 		        
 		        <EditText 
 		            android:layout_width="match_parent"
-		            android:layout_height="50dip"
+		            android:layout_height="@dimen/input_height"
 		            android:textSize="14sp"
 		    		android:textColor="@color/card_text_light"
 		            android:imeOptions="actionSearch"
