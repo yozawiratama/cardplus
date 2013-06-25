@@ -16,6 +16,7 @@ public final class R {
         public static final int card_background=0x7f040013;
         public static final int card_border=0x7f040012;
         public static final int card_grid_text=0x7f040010;
+        public static final int card_light_shadow=0x7f040015;
         public static final int card_light_text=0x7f04000f;
         public static final int card_separator=0x7f040011;
         public static final int card_shadow=0x7f040014;
@@ -50,7 +51,8 @@ public final class R {
     public static final class drawable {
         public static final int cardplus=0x7f020000;
         public static final int ic_launcher=0x7f020001;
-        public static final int sunny=0x7f020002;
+        public static final int input_card=0x7f020002;
+        public static final int sunny=0x7f020003;
     }
     public static final class id {
         public static final int action_settings=0x7f090000;

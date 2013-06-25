@@ -13,11 +13,31 @@
 		android:layout_marginRight="8dip"
 		android:padding="8dip"
 	    >
+	    
+	    <LinearLayout 
+	        android:layout_width="match_parent"
+	    	android:layout_height="wrap_content"
+	    	android:layout_marginBottom="5dip"
+	    	android:orientation="horizontal"
+	    	android:background="@drawable/input_card"
+	        >
+	        
+	        <EditText 
+	            android:layout_width="match_parent"
+	            android:layout_height="50dip"
+	            android:textSize="14sp"
+	    		android:textColor="@color/card_text_light"
+	            android:imeOptions="actionSearch"
+	            android:padding="3dip"
+	            />
+	    </LinearLayout>
+		    
 		<LinearLayout 
 		    android:layout_width="match_parent"
 		    android:layout_height="wrap_content"
 			android:orientation="vertical"
 			android:background="@drawable/cardplus"
+			android:layout_marginBottom="5dip"
 		    >
 		    <TextView 
 		        android:layout_width="match_parent"
@@ -38,9 +58,6 @@
 		    	android:layout_marginRight="5dip"
 		        />
 		    
-		    
-		    
-		    
 		    <TextView
 		        android:layout_width="match_parent"
 		    	android:layout_height="wrap_content"
@@ -55,11 +72,9 @@
 		    <LinearLayout 
 		        android:layout_width="match_parent"
 		    	android:layout_height="wrap_content"
-		    	android:layout_marginLeft="5dip"
-		    	android:layout_marginRight="5dip"
-		    	android:layout_marginTop="5dip"
+		    	android:layout_margin="5dip"
 		    	android:orientation="horizontal"
-		    	android:background="@color/white"
+		    	android:background="@drawable/input_card"
 		        >
 		        
 		        <EditText 
@@ -70,25 +85,8 @@
 		            android:imeOptions="actionSearch"
 		            />
 		    </LinearLayout>
-		    <TextView
-		        android:layout_width="match_parent"
-		    	android:layout_height="2dip"
-		    	android:background="@color/card_separator"
-		    	android:layout_marginLeft="5dip"
-		    	android:layout_marginRight="5dip"
-		    	android:layout_marginBottom="5dip"
-		        />
 		    
 	    </LinearLayout>
-	    <TextView
-		        android:layout_width="match_parent"
-		    	android:layout_height="2dip"
-		    	android:background="@color/card_shadow"
-		    	android:layout_marginLeft="2dip"
-		    	android:layout_marginRight="2dip"
-		    	android:layout_marginBottom="5dip"
-		    	
-		        />
 	    
 	    <LinearLayout 
 		    android:layout_width="match_parent"
@@ -311,12 +309,5 @@
 		    </LinearLayout>
 		    
 	    </LinearLayout>
-	    <TextView
-		        android:layout_width="match_parent"
-		    	android:layout_height="2dip"
-		    	android:background="@color/card_shadow"
-		    	android:layout_marginLeft="2dip"
-		    	android:layout_marginRight="2dip"
-		        />
     </LinearLayout>
 </ScrollView>
