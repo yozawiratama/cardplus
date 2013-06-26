@@ -51,6 +51,8 @@ public final class R {
         public static final int global_padding=0x7f050003;
         public static final int input_height=0x7f050004;
         public static final int input_large_height=0x7f050005;
+        public static final int left_indent=0x7f050006;
+        public static final int title=0x7f050007;
     }
     public static final class drawable {
         public static final int cardplus=0x7f020000;
@@ -77,15 +79,20 @@ public final class R {
         public static final int ic_action_user=0x7f020015;
         public static final int ic_action_user_add=0x7f020016;
         public static final int ic_action_video=0x7f020017;
-        public static final int ic_launcher=0x7f020018;
-        public static final int input_card=0x7f020019;
-        public static final int sunny=0x7f02001a;
+        public static final int ic_dark_access_mic=0x7f020018;
+        public static final int ic_launcher=0x7f020019;
+        public static final int input_card=0x7f02001a;
+        public static final int now_bg=0x7f02001b;
+        public static final int sunny=0x7f02001c;
     }
     public static final class id {
-        public static final int action_settings=0x7f090000;
+        public static final int action_settings=0x7f090001;
+        public static final int menu_list=0x7f090000;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
+        public static final int search_now=0x7f030001;
+        public static final int weather=0x7f030002;
     }
     public static final class menu {
         public static final int main=0x7f080000;

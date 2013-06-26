@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/layout_bg"
+    >
+    <FrameLayout 
+        android:layout_width="match_parent"
+    	android:layout_height="120dp"
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/now_bg"
+            android:scaleType="centerCrop"
+            
+            />
+        <FrameLayout 
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/input_height"
+            android:background="@drawable/input_card"
+            android:layout_marginTop="75dp"
+            android:layout_marginLeft="@dimen/global_margin"
+            android:layout_marginRight="@dimen/global_margin"
+            >
+            <EditText 
+                android:layout_width="match_parent"
+            	android:layout_height="match_parent"
+            	android:padding="@dimen/global_padding"
+            	android:layout_marginRight="@dimen/input_height"
+            	android:imeOptions="actionSearch"
+            	android:hint="Search"
+                />
+            <ImageButton 
+                android:layout_width="@dimen/input_height"
+                android:layout_height="@dimen/input_height"
+                android:src="@drawable/ic_dark_access_mic"
+                android:layout_gravity="right"
+                />
+        </FrameLayout>
+    </FrameLayout>
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="2dip"
+        android:background="@color/card_shadow"
+        />
+
+</LinearLayout>

@@ -1,4 +1,4 @@
-<ScrollView
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -16,22 +16,31 @@
 	    
 	    <LinearLayout 
 	        android:layout_width="match_parent"
-	    	android:layout_height="wrap_content"
-	    	android:layout_marginBottom="@dimen/global_margin"
-	    	android:orientation="horizontal"
-	    	android:background="@drawable/input_card"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical"
+	        android:background="@drawable/cardplus"
+	        android:layout_marginBottom="@dimen/global_margin"
 	        >
-	        
-	        <EditText 
+	        <TextView 
 	            android:layout_width="match_parent"
-	            android:layout_height="@dimen/input_height"
-	            android:textSize="14sp"
-	    		android:textColor="@color/card_text_light"
-	            android:imeOptions="actionSearch"
-	            android:padding="3dip"
+	        	android:layout_height="wrap_content"
+	        	android:text="Card+ Sample"
+	        	android:textSize="@dimen/title"
+	        	android:textColor="@color/card_title_text"
+	        	android:padding="@dimen/global_padding"
+	        	android:layout_marginLeft="@dimen/left_indent"
 	            />
+	        <ListView 
+	            android:id="@+id/menu_list"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_margin="@dimen/global_margin"
+	            
+	            >
+	            
+	        </ListView>
 	    </LinearLayout>
-		    
+		    <!-- 
 		<LinearLayout 
 		    android:layout_width="match_parent"
 		    android:layout_height="wrap_content"
@@ -87,227 +96,7 @@
 		    </LinearLayout>
 		    
 	    </LinearLayout>
+	     -->
 	    
-	    <LinearLayout 
-		    android:layout_width="match_parent"
-		    android:layout_height="wrap_content"
-			android:orientation="vertical"
-			android:background="@drawable/cardplus"
-		    >
-		    <TextView 
-		        android:layout_width="match_parent"
-		    	android:layout_height="wrap_content"
-		    	android:layout_marginLeft="15dip"
-		    	android:layout_marginRight="5dip"
-		    	android:layout_marginTop="5dip"
-		    	android:layout_marginBottom="2dip"
-		    	android:text="Weather"
-		    	android:textSize="25sp"
-		    	android:textColor="@color/card_title_text"
-		        />
-		    
-		    <TextView
-		        android:layout_width="match_parent"
-		    	android:layout_height="wrap_content"
-		    	android:layout_marginLeft="15dip"
-		    	android:layout_marginRight="5dip"
-		    	android:layout_marginTop="5dip"
-		    	android:layout_marginBottom="2dip"
-		    	android:text="HAZE"
-		    	android:textSize="14sp"
-		    	android:textColor="@color/card_text_light"
-		        />
-		    <LinearLayout 
-		        android:layout_width="match_parent"
-		    	android:layout_height="wrap_content"
-		    	android:layout_marginLeft="5dip"
-		    	android:layout_marginRight="5dip"
-		    	android:layout_marginTop="5dip"
-		    	android:layout_marginBottom="5dip"
-		    	android:orientation="horizontal"
-		    	android:weightSum="140"
-		        >
-		        <LinearLayout 
-		            android:layout_width="0dip"
-		            android:layout_height="60dip"
-		            android:layout_weight="19"
-		            android:orientation="vertical"
-		            >
-		            <TextView 
-		                android:layout_width="wrap_content"
-		                android:layout_height="wrap_content"
-		                android:text="SUN"
-		                android:textSize="14sp"
-		    			android:textColor="@color/card_text_light"
-		    			android:layout_gravity="center"
-		                />
-		            <ImageView 
-		                android:layout_width="match_parent"
-		                android:layout_height="match_parent"
-		                android:src="@drawable/sunny"
-		                />
-		        </LinearLayout>
-		        <TextView 
-		            android:layout_width="0dip"
-		            android:layout_height="60dip"
-		            android:layout_weight="1"
-		            android:background="@color/card_separator"
-		            />
-		        <LinearLayout 
-		            android:layout_width="0dip"
-		            android:layout_height="60dip"
-		            android:layout_weight="19"
-		            android:orientation="vertical"
-		            >
-		            <TextView 
-		                android:layout_width="wrap_content"
-		                android:layout_height="wrap_content"
-		                android:text="MON"
-		                android:textSize="14sp"
-		    			android:textColor="@color/card_text_light"
-		    			android:layout_gravity="center"
-		                />
-		            <ImageView 
-		                android:layout_width="match_parent"
-		                android:layout_height="match_parent"
-		                android:src="@drawable/sunny"
-		                />
-		        </LinearLayout>
-		        <TextView 
-		            android:layout_width="0dip"
-		            android:layout_height="60dip"
-		            android:layout_weight="1"
-		            android:background="@color/card_separator"
-		            />
-		        <LinearLayout 
-		            android:layout_width="0dip"
-		            android:layout_height="60dip"
-		            android:layout_weight="19"
-		            android:orientation="vertical"
-		            >
-		            <TextView 
-		                android:layout_width="wrap_content"
-		                android:layout_height="wrap_content"
-		                android:text="TUE"
-		                android:textSize="14sp"
-		    			android:textColor="@color/card_text_light"
-		    			android:layout_gravity="center"
-		                />
-		            <ImageView 
-		                android:layout_width="match_parent"
-		                android:layout_height="match_parent"
-		                android:src="@drawable/sunny"
-		                />
-		        </LinearLayout>
-		        <TextView 
-		            android:layout_width="0dip"
-		            android:layout_height="60dip"
-		            android:layout_weight="1"
-		            android:background="@color/card_separator"
-		            />
-		        <LinearLayout 
-		            android:layout_width="0dip"
-		            android:layout_height="60dip"
-		            android:layout_weight="19"
-		            android:orientation="vertical"
-		            >
-
-		            <TextView
-		                android:layout_width="wrap_content"
-		                android:layout_height="wrap_content"
-		                android:layout_gravity="center"
-		                android:text="WED"
-		                android:textColor="@color/card_text_light"
-		                android:textSize="14sp" />
-		            <ImageView 
-		                android:layout_width="match_parent"
-		                android:layout_height="match_parent"
-		                android:src="@drawable/sunny"
-		                />
-
-		        </LinearLayout>
-		        <TextView 
-		            android:layout_width="0dip"
-		            android:layout_height="60dip"
-		            android:layout_weight="1"
-		            android:background="@color/card_separator"
-		            />
-		        <LinearLayout 
-		            android:layout_width="0dip"
-		            android:layout_height="60dip"
-		            android:layout_weight="19"
-		            android:orientation="vertical"
-		            >
-
-		            <TextView
-		                android:layout_width="wrap_content"
-		                android:layout_height="wrap_content"
-		                android:layout_gravity="center"
-		                android:text="THU"
-		                android:textColor="@color/card_text_light"
-		                android:textSize="14sp" />
-		            <ImageView 
-		                android:layout_width="match_parent"
-		                android:layout_height="match_parent"
-		                android:src="@drawable/sunny"
-		                />
-
-		        </LinearLayout>
-		        <TextView 
-		            android:layout_width="0dip"
-		            android:layout_height="60dip"
-		            android:layout_weight="1"
-		            android:background="@color/card_separator"
-		            />
-		        <LinearLayout 
-		            android:layout_width="0dip"
-		            android:layout_height="60dip"
-		            android:layout_weight="19"
-		            android:orientation="vertical"
-		            >
-
-		            <TextView
-		                android:layout_width="wrap_content"
-		                android:layout_height="wrap_content"
-		                android:layout_gravity="center"
-		                android:text="FRI"
-		                android:textColor="@color/card_text_light"
-		                android:textSize="14sp" />
-		            <ImageView 
-		                android:layout_width="match_parent"
-		                android:layout_height="match_parent"
-		                android:src="@drawable/sunny"
-		                />
-
-		        </LinearLayout>
-		        <TextView 
-		            android:layout_width="0dip"
-		            android:layout_height="60dip"
-		            android:layout_weight="1"
-		            android:background="@color/card_separator"
-		            />
-		        <LinearLayout 
-		            android:layout_width="0dip"
-		            android:layout_height="60dip"
-		            android:layout_weight="19"
-		            android:orientation="vertical"
-		            >
-		            
-		            <TextView
-		                android:layout_width="wrap_content"
-		                android:layout_height="wrap_content"
-		                android:layout_gravity="center"
-		                android:text="SAT"
-		                android:textColor="@color/card_text_light"
-		                android:textSize="14sp" />
-		            <ImageView 
-		                android:layout_width="match_parent"
-		                android:layout_height="match_parent"
-		                android:src="@drawable/sunny"
-		                />
-		        </LinearLayout>
-		    </LinearLayout>
-		    
-	    </LinearLayout>
     </LinearLayout>
-</ScrollView>
+</RelativeLayout>
