@@ -4,7 +4,7 @@
 
 Google now design is really awesome, and if you think that too, why don't you try this sample.
 Card+ is
-An android's color library and layout template to create card ui like google now.
+An android's color library and layout template to create card ui like google now for android.
 
 Basic useful feature list:
 
